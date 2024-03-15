@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638460659200248310
-    m_Hash: 3365663546
+      ticks: 638460694186307053
+    m_Hash: 1931254968
   m_LockFileStatus:
     m_FilePath: D:/3year/3d game/NewPrototype/3dGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638460659200258371
-    m_Hash: 1633271
+      ticks: 638460694186317044
+    m_Hash: 3860736541
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
