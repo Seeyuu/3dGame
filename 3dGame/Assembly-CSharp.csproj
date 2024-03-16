@@ -64,6 +64,7 @@
     <Compile Include="Assets\script\MoveCamera.cs" />
     <Compile Include="Assets\script\Movinfplatform.cs" />
     <Compile Include="Assets\script\PlayerMovement.cs" />
+    <Compile Include="Assets\script\ThirdPersonCam.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
