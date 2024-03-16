@@ -361,6 +361,7 @@
 "Assets/script/Movinfplatform.cs"
 "Assets/script/PlayerCam.cs"
 "Assets/script/PlayerMovement.cs"
+"Assets/script/RiverZone.cs"
 "Assets/script/ThirdPersonCam.cs"
 -langversion:9.0
 

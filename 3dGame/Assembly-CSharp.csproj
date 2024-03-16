@@ -63,6 +63,7 @@
     <Compile Include="Assets\script\PlayerCam.cs" />
     <Compile Include="Assets\script\MoveCamera.cs" />
     <Compile Include="Assets\script\Movinfplatform.cs" />
+    <Compile Include="Assets\script\RiverZone.cs" />
     <Compile Include="Assets\script\PlayerMovement.cs" />
     <Compile Include="Assets\script\ThirdPersonCam.cs" />
   </ItemGroup>
