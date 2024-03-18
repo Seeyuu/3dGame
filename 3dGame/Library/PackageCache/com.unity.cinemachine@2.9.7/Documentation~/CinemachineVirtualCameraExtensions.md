@@ -1,12 +1,3 @@
-# Extensions
-
-Extensions are components that augment the behavior of a Virtual Camera. For example, the [Collider](CinemachineCollider.md) extension moves a camera out of the way of GameObjects that obstruct the camera’s view of its target.
-
-Cinemachine includes a variety of extensions. Create your own custom extensions by deriving from the `CinemachineExtension` class.
-
-To add an extension to a Virtual Camera:
-
-1. Select your Virtual Camera in the [Scene](https://docs.unity3d.com/Manual/UsingTheSceneView.html) view or [Hierarchy](https://docs.unity3d.com/Manual/Hierarchy.html) window.
-
-2. In the [Inspector](https://docs.unity3d.com/Manual/UsingTheInspector.html), use the __Add Extension__ drop-down menu to choose the extension.
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:24e1235b36ff694706977c0779fcb5a6e87f635c3e359f98aa7824a4655f7e1c
+size 742

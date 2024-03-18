@@ -1,4 +1,3 @@
-# Hard Lock to Target
-
-This Virtual Camera __Body__ algorithm uses the same position at the __Follow__ target. In other words, the target acts as a mounting point for the Virtual Camera.
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:a536aca87377a80c2c21350036a1998f4ec9231f53a4b4d2ecdeca5f46df307c
+size 188

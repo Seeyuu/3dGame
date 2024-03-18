@@ -1,4 +1,3 @@
-# Do Nothing
-
-This Virtual Camera __Aim__ algorithm does not aim the Virtual Camera. Choose this algorithm for static shots or for animating the rotation directly with custom scripts.
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:cfdeb6670818f78edebc1fa3e411b68bdcec249a7c39043b031603022415e354
+size 185

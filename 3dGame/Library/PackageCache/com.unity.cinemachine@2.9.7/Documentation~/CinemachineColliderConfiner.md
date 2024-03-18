@@ -1,7 +1,3 @@
-# Avoiding collisions and evaluating shots
-
-As characters and objects move around in a complex Scene, obstacles in the Scene sometimes come between a camera and its target.  Similarly, you might need to move a camera to a position in the Scene that another GameObject already occupies. Cinemachine provides extensions to handle these situations:
-
-* [Cinemachine Collider](CinemachineCollider.md)
-* [Cinemachine Confiner](CinemachineConfiner.md)
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc1e453d8de13ac990ae291275abe0399921a47bc422ac9debb0bb6bbf66ccd2
+size 446

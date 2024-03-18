@@ -1,4 +1,3 @@
-# Hard Look At
-
-This Virtual Camera __Aim__ algorithm rotates the Virtual Camera to keep the __Look At__ target in the center of the camera frame.
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:f7e968eb2b269d8546343a42f27f09594e685cdd5adf393ed34e971161de81f3
+size 148

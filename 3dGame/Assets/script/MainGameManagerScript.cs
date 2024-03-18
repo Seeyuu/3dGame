@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bd699787612c3db5c08aef0eae867b534a6a8275e916398261d42e8ad6298d90
-size 466
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using Unity.Netcode;
+
+public class MainGameManagerScript : MonoBehaviour
+{
+    public void OnServerButtonClick()
+    {
+        NetworkManager.Singleton.StartServer();
+    }
+    public void OnHostButtonClick()
+    {
+        NetworkManager.Singleton.StartHost();
+    }
+    public void OnClientButtonClick()
+    {
+        NetworkManager.Singleton.StartClient();
+    }
+}

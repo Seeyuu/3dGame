@@ -1,3 +1,33 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:127430b5405174afc7b10ed860879f736dd8aa48fd7d5adf5f424091e0e46e8f
-size 1052
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ThirdPersonCam : MonoBehaviour
+{
+    [Header("Preference")]
+    public Transform orientation;
+    public Transform player;
+    public Transform playerObj;
+    public Transform rb;
+
+    public float rotationSpeed;
+
+    private void Start()
+    {
+        //Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
+    }
+
+    private void Update()
+    {
+        Vector3 viewDir = playerObj.position - new Vector3(transform.position.x, player.position.y, transform.position.z);
+        orientation.forward = viewDir.normalized;
+
+        float horizontalInput = Input.GetAxis("Horizontal");
+        float vecticalInput = Input.GetAxis("Vertical");
+        Vector3 inputDir = orientation.forward* vecticalInput+ orientation.right* horizontalInput;
+
+        if(inputDir != Vector3.zero)
+            playerObj.forward = Vector3.Slerp(playerObj.forward, inputDir.normalized, Time.deltaTime * rotationSpeed);
+    }
+}

@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4814cd8191b45b0fa8e51da6a163483617d74408bedd53486389010de78e6b4b
-size 552
+using System.Collections;
+using UnityEngine;
+
+namespace Unity.Multiplayer.Samples.Utilities
+{
+    public class AutoHide : MonoBehaviour
+    {
+        [SerializeField]
+        float m_TimeToHideSeconds = 5f;
+
+        // Start is called before the first frame update
+        void Start()
+        {
+            StartCoroutine(HideAfterSeconds());
+        }
+
+        IEnumerator HideAfterSeconds()
+        {
+            yield return new WaitForSeconds(m_TimeToHideSeconds);
+            gameObject.SetActive(false);
+        }
+    }
+}
